@@ -1,5 +1,5 @@
 html {
-    background-color: #ddddcd;
+    background-color: #ffffff;
     font-family: trebuchet, geneva, sans-serif;
     border: 0.2em solid;
     flex: 200%;
@@ -20,10 +20,9 @@ html {
   header {
     padding: 0.25rem;
     box-sizing: border-box;
-    text-align: center;
+    text-align: center;/*aligns text*/
     background-color: rgba(97, 96, 96, 0.548);
-    color: rgb(0, 0, 0);
-    text-align: center;
+    color: rgb(0, 0, 0); /*change colour of the text*/
     border-bottom:0.2em solid;
   
   }
@@ -53,7 +52,7 @@ html {
 
 
     body {
-      display: flex;
+      display: flex;     /* displays the format of the content in a specific form*/                  
       flex-direction: column;
       max-width: 80rem;
       margin: auto;
